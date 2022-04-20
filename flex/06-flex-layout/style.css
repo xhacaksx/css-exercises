@@ -3,6 +3,7 @@
 body {
   height: 100vh;
   margin: 0;
+  padding: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
@@ -24,4 +25,54 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+}
+.header ul  {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap:4px;
+}
+.header .left-links  a{
+  margin-left:1px ;
+  text-decoration: none;
+  color: black;
+}
+.header  .right-links  a{
+  margin-right:12px ;
+  text-decoration: none;
+  color: black;
+}
+.content {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.footer {
+  display:flex;
+  justify-content: space-between;
+  background-color: rgb(194, 189, 189);
+}
+.footer ul {
+  display: flex;
+  gap:4px;
+  
+  list-style: none;
+
+}
+.footer .left-links  a{
+  margin-left:1px ;
+  text-decoration: none;
+  color: black;
+}
+.footer  .right-links  a{
+  margin-right:12px ;
+  text-decoration: none;
+  color: black;
 }
